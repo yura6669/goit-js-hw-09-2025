@@ -8,9 +8,17 @@
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
-    <h1>Form</h1>
-    <a href="./index.html">Back</a>
-
-    <script href="./js/form.js"></script>
+    <form class="feedback-form" autocomplete="off">
+      <label>
+        Email
+        <input type="email" name="email" autofocus />
+      </label>
+      <label>
+        Message
+        <textarea name="message" rows="3"></textarea>
+      </label>
+      <button type="submit">Submit</button>
+    </form>
+    <script src="./js/form.js" type="module"></script>
   </body>
 </html>

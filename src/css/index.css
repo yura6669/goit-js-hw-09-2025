@@ -1,0 +1,16 @@
+.tasks {
+  display: flex;
+  justify-content: space-around;
+  background-color: black;
+  padding: 15px 0;
+}
+
+.task {
+  background-color: white;
+  padding: 5px;
+  border-radius: 6px;
+}
+
+.task:hover {
+  background-color: #f0f0f0;
+}

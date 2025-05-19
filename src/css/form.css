@@ -1,0 +1,45 @@
+.feedback-form {
+  display: flex;
+  flex-direction: column;
+  width: 360px;
+  margin: 0 auto;
+  gap: 8px;
+}
+
+.feedback-form label {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.feedback-form input,
+.feedback-form textarea {
+  padding: 8px 16px;
+  border: 1px solid rgba(128, 128, 128, 1);
+  border-radius: 4px;
+  resize: none;
+}
+
+.feedback-form input:focus,
+.feedback-form textarea:focus {
+  outline: none;
+  border-color: rgba(0, 0, 0, 1);
+}
+
+.feedback-form button {
+  max-width: 95px;
+  margin-top: 8px;
+  padding: 8px 16px;
+  border: none;
+  color: rgba(255, 255, 255, 1);
+  background-color: rgba(78, 117, 255, 1);
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.feedback-form button:hover {
+  background-color: rgba(108, 140, 255, 1);
+}
